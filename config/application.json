@@ -8,13 +8,13 @@
     },
     "jobs":[
         {
-            "username":"***",
-            "password":"***",
-            "nickname":"张三",
+            "username":"AUTOCARD_USER",
+            "password":"AUTOCARD_PWD",
+            "nickname":"AUTOCARD_NICKNAME",
             "mail":"***",
-            "cron":"0 0 0 * * ? *",
-            "dingtalkurl": "https://oapi.dingtalk.com/robot/send?access_token=****",
-            "dingtalksecret": "SEC****",
+            "cron":"0 16,18,1 0 * * ? *",
+            "dingtalkurl": "AUTOCARD_DINGTALK_URL",
+            "dingtalksecret": "AUTOCARD_DINGTALK_SECRET",
             "delay":true,
             "maxtrial": 3
         },
